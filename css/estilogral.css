@@ -1,0 +1,202 @@
+/* reset*/
+*{
+    margin: 0 px;
+    padding: 0 px;
+}
+
+/*Estilos de los titulos*/
+
+h1{
+    font-family: 'Big Shoulders Text', cursive;
+font-family: 'Tulpen One', cursive;
+text-align: center;
+font-size: 40px;
+border: 2px solid;
+border-radius: 30px;
+border-color: black;
+background-color: rgb(187, 123, 134);
+color: white;
+padding: 10px;
+margin-bottom: 30px;
+margin-top: 20px;
+gap: 10px;
+
+
+    
+    
+}
+
+h2, h3, h4{
+   
+    text-align: center;
+    font-family: 'Big Shoulders Text', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Tulpen One', cursive;
+border: 2px solid;
+border-color: rgb(14, 12, 12);
+background-color: pink;
+padding: 20px;
+margin: 30px;
+    
+}
+
+.fondo-home{
+    background-image: url(../img/boceto1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 30px;
+    padding: 100px;
+    background-color: gray;
+
+}
+.delfy{
+      padding: 30px;
+      margin: 30px;
+      background-color: gray;
+      width: 400px;
+      height: 500px;
+      
+}
+.sobre-mi{
+    background-image: url(../img/boceto4.webp);
+      background-size: contain;
+      background-repeat: no-repeat;
+
+}
+.texto-del{
+    display: inline-block;
+    position: relative;
+    bottom: 500px;
+    left: 500px;
+    text-align: center;
+    background-color: rgb(161, 159, 159);
+    padding: 50px 70px 50px 70px;
+    margin: 50px 70px 50px 70px;
+    width: 500px;
+    height: 200px;
+    
+    font-family: 'Big Shoulders Text', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Tulpen One', cursive;
+           
+
+}
+table, tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+
+header{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 30px;
+
+    height: 30px;
+   
+    display: flex;
+    
+   
+    /* o se coloca una propiedad que junta la direcccion y el comportamiento de sus hijos*/
+    flex-flow: row wrap;
+    justify-content: end;
+    align-items: unset;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul li{
+    
+    border: 2px solid;
+    padding: 10px;
+    text-align: right;
+    border-radius: 10px;
+    color: rgb(151, 17, 17);
+    border-color: black;
+    background-color: rgb(249, 249, 250);
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    text-align: justify;
+  
+}
+
+.hover nav .hover1 li a:hover{
+    background-color:  rgb(100, 59, 146);
+    color: rgb(252, 248, 248);
+    size: 50px;
+
+    
+}
+
+.render{
+    background-color: gray;
+    background-image: url(../img/boceto1.jpg);
+    background-size: cover;
+
+}
+.contacto{
+    background-image: url(../img/boceto3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    width: 700px;
+   
+
+}
+.logo{
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px; 
+}
+ 
+.plano{
+    background-image: url(../img/boceto2.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+li{
+    color: rgb(16, 69, 116);
+}
+
+.link-form{
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+}
+
+.input1, .input2{
+    color: brown;
+    height: 50px;
+    width: 120px;
+    font-family: 'Big Shoulders Text', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Passion One', cursive;
+font-family: 'Tulpen One', cursive;
+font-size: 20px;
+margin: 40px;
+margin-left: 150px;
+display: flex;
+display: inline-block;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+
+
+
